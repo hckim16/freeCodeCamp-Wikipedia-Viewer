@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+<body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer" target="blank">freeCodeCamp "Build a Wikipedia Viewer" Project</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://www.hyochangkim.com" target="_blank"><span class="glyphicon glyphicon-user"></span> Hyo's Blog</a></li>
+        </ul>
+      </nav>
+      <div class="spacer"></div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class>Wikipedia Viewer</h1>
+          <h3><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank" class="btn btn-default btn-lg">Click here for a Random Wikipedia article</a></h3>
+        </div>
+        <div class="spacer"></div>
+        <form class="form-horizontal">
+          <div class="col-sm-4">
+          </div>
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input class="form-control" id="searchWikipedia" type="text" placeholder="What are you looking for?">
+            </div>
+            <button id="search" type="button" class="btn btn-primary right">Search</button>
+          </div>
+        </form>
+        <div class="spacer"></div>
+        <div class="block">
+          <h3 class="text-center">Search Results<br><br><span id="results"></span></h3>
+        </div>
+      </div>
+  </body>
+
+  </html>
